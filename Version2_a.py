@@ -16,7 +16,7 @@ proxyDict = {
             }
 # proxies=proxyDict
 
-file_name = "Adhoc_"+str(date_Time)+".csv"
+file_name = "hoc_"+str(date_Time)+".csv"
 print ("File name :",file_name)
 def extract_CssData(selected_css,soupContent,cssCount):
     data = soupContent.select(selected_css)
